@@ -12,58 +12,39 @@
 	.content-box {
 		background-color: lightblue;
 		border: 1px solid black;
+
+		position: relative;
+
 		float: left;
 		margin: 10px;
 		height: 100%;
 	}
 	.body-text {
 		padding: 10px;
+		padding-top: 40px;
 		font-size: 100%;
 	}
-	.title-box1 {
-		background-color: lightgreen;
+	.title-box {
 		font-family: helvetica, sans-serif;
 		font-size: 125%;
 		text-align: center;
 
-		width: 30%;
+		width: 100px;
 		padding: 5px;
-		border-bottom: 2px solid black;
+		border-bottom: 1px solid black;
 		border-left: 1px solid black;
-		margin: 0px;
 
-		position: relative;
-		left: 70%;
+		position: absolute;
+		right: 0;
 	}
-	.title-box2 {
+	#title-box1 {
+		background-color: lightgreen;
+	}
+	#title-box2 {
 		background-color: pink;
-		font-family: helvetica, sans-serif;
-		font-size: 125%;
-		text-align: center;
-
-		width: 30%;
-		padding: 5px;
-		border-bottom: 2px solid black;
-		border-left: 2px solid black;
-		margin: 0px;
-
-		position: relative;
-		left: 70%;
 	}
-	.title-box3 {
+	#title-box3 {
 		background-color: lightyellow;
-		font-family: helvetica, sans-serif;
-		font-size: 125%;
-		text-align: center;
-
-		width: 30%;
-		padding: 5px;
-		border-bottom: 2px solid black;
-		border-left: 2px solid black;
-		margin: 0px;
-
-		position: relative;
-		left: 70%;
 	}
 	.row {
 		width: 100%;
