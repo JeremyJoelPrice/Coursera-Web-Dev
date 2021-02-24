@@ -1,0 +1,19 @@
+~Objectives~
+[x] Create a foler for your solution
+[x] Implement the mockup illustrations
+[x] Navbar must scroll away with the rest of the page
+[x] Navbar must have company name aligned to the left "Food, LLC"
+[x] Navbar button should be a simple menu button (three horizontal lines)
+[x] When navbar button is clicked, three options appear: Chicken, Beef, Sushi
+[x] Dropdown menu should occupy full width of browser window.
+[x] Navbar button only visible in xs size
+[x] Page heading "Our Menu" must be centered using a Bootstrap class.
+[x] Page should use a single very tall section which contains Bootstrap rows/columns.
+[x] This tall section must be tall enough that scrolling is always required.
+
+~Constraints~
+- Use a GitHub repo
+- Include a css file in /css/
+- Use Twitter Bootstrap as much as possible
+- Desktop = md, tablet = sm, phone = xs
+- No inline styling allowed
